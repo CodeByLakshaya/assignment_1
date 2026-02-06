@@ -1,0 +1,244 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background:#F7F7F4;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px 20px 0px;
+}
+nav .conatainer1{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin-left: 100px;
+}
+nav .conatainer1 .image1 img{
+    width: 25px;
+    height: 30px;
+}
+nav .conatainer1 .image2 img{
+    width: 50px;
+    height: 15px;
+}
+nav .two ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.two li a {
+    text-decoration: none;
+    color: black;
+}
+nav .three ul{
+    list-style: none;
+    margin-right: 100px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.three li a {
+    text-decoration: none;
+    color: black;
+}
+.download_button p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: 125px;
+}
+.download_button button{
+    width: 200px;
+    height: 40px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download_button img{
+    width: 1290px;
+    height: 680px;
+    margin: 10px 100px 50px 100px;
+}
+
+.part1 div p{  
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.part1 .logos{
+    gap: 10px;
+    height: 70px;
+    width: 1290px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 100px;
+    padding: 0px 30px;
+    margin-bottom: 30px;
+    
+}
+.part1 .logos img{
+    width: 101px;
+    height: 40px;
+    padding: 0px 7.5px;
+    background: #FFFFFF;
+    align-items: center;
+    margin: 20px;
+    border-radius: 15px;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    width: 1290.44px;
+    height: 685px;
+    margin-bottom: 50px;
+    background: rgba(232, 226, 216, 0.5);
+    margin-left: 100px;
+    border-radius: 4px;
+}
+.part2 img{
+    width: 800px;
+    height: 625px;
+    margin-left: 20px;
+    align-self: center;
+    margin-left: 110px;
+}   
+.tillu {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.tillu a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+
+.testimonials {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
+}
+
+.testimonials h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 48px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.card {
+    background: #edede9;
+    padding: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.author span {
+    font-size: 14px;
+    color: #555;
+}
+.last {
+    padding: 80px 24px;
+    text-align: center;
+}
+.last h1 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.last button {
+    width: 200px;
+    height: 40px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 44%;
+  
+}
+.footer {
+    background: #14130f;
+    padding: 80px 40px;
+}
+
+.footer-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+}
+
+.footer-col h4 {
+    color: #9aa0a6;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.footer-col a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-col a:hover {
+    opacity: 0.75;
+}
+.copyright {
+    text-align: center;
+    color: #9aa0a6;
+    font-size: 14px;
+    margin-top: 40px;
+}
